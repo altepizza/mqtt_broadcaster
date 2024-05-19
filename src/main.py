@@ -1,6 +1,5 @@
 import paho.mqtt.client as mqtt
-from config import settings
-from loguru import logger
+from config import settings, logger
 
 logger.info("Starting MQTT client")
 
