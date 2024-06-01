@@ -1,2 +1,7 @@
+# Go stuff
+run_go.sh
+
+# Python stuff
 *.pyc
+.env
 .venv
