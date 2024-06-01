@@ -3,6 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: ghcr.io/altepizza/mqtt_broadcaster:latest
     restart: unless-stopped
     environment:
       - MQTT_DISTRIBUTER_BROKERPORT=${MQTT_BROKER_HOST_PORT}
